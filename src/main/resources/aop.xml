@@ -1,0 +1,8 @@
+<aspectj>
+    <weaver options="-Xreweavable -Xlint:ignore" />
+    <aspects>
+        <!-- weave in just this aspect -->
+        <aspect name="drips.managementReplacement" />
+        <!-- define a concrete aspect inline -->
+    </aspects>
+</aspectj>
