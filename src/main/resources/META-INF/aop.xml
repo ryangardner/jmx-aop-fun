@@ -1,0 +1,8 @@
+<aspectj>
+    <weaver options="-Xreweavable -verbose -Xset:weaveJavaxPackages=true -Xset:weaveJavaPackages=true" />
+    <aspects>
+        <!-- weave in just this aspect -->
+        <aspect name="drips.MXBeanSwaparoo" />
+        <!-- define a concrete aspect inline -->
+    </aspects>
+</aspectj>
